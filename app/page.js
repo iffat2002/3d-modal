@@ -4,7 +4,7 @@ import AsciiHead from "/components/AsciiHead/AsciiHead"
 export default function Home() {
   return (
     <main>
-      {/* <AsciiImage /> */}
+      <AsciiImage />
       {/* <AsciiHead /> */}
     </main>
   );
