@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #e6e6e6;
+  --dim: #6b6b6b;
+  --mono: "IBM Plex Mono", "Courier New", monospace;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--mono);
+}
+
+body {
+  overflow-x: hidden;
+}
