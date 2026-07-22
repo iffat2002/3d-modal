@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function ReferenceResultPage() {
   const resultHtml = readFileSync(
-    join(process.cwd(), "app", "reference-result", "reference-output.html"),
+    join(process.cwd(), "app", "ascii-converted", "reference-output.html"),
     "utf8"
   );
 
